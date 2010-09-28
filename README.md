@@ -10,7 +10,7 @@ plugin.
 
 ## Download
 
-
+You can get the source code from [github][3].
 
 ## Installation
 
@@ -26,15 +26,15 @@ Copy `imailhide.pm` to `/usr/share/perl/5.10.0/IkiWiki/Plugin` or
 
 ### `mailhide_public_key`
 
-This is your personal public key that you can get at [Google][3].
+This is your personal public key that you can get at [Google][4].
 
 ### `mailhide_private_key`
 
-This is your personal private key that you can get at [Google][3].
+This is your personal private key that you can get at [Google][4].
 
 ### `mailhide_default_style`
 
-As per the recommendation of the [Mailhide API documentation][4], you
+As per the recommendation of the [Mailhide API documentation][5], you
 can define this as `short` or `long`. The `short` parameter will
 result in `<a href="...">john</a>` links, while the `long` parameter
 will result in `joh<a href="...">...</a>@example.com`.
@@ -52,5 +52,6 @@ will result in `joh<a href="...">...</a>@example.com`.
 
 [1]: http://www.google.com/recaptcha/mailhide/
 [2]: http://search.cpan.org/perldoc?Captcha::reCAPTCHA::Mailhide
-[3]: http://www.google.com/recaptcha/mailhide/apikey
-[4]: http://code.google.com/apis/recaptcha/docs/mailhideapi.html
+[3]: http://github.com/petervizi/imailhide
+[4]: http://www.google.com/recaptcha/mailhide/apikey
+[5]: http://code.google.com/apis/recaptcha/docs/mailhideapi.html
